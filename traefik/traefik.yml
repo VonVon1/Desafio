@@ -17,6 +17,6 @@ certificatesResolvers:
   myresolver:
     acme:
       email: seu-email@example.com
-      storage: acme.json
+      storage: /acme.json
       httpChallenge:
         entryPoint: web
